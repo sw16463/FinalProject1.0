@@ -1,0 +1,1626 @@
+﻿<?xml version="1.0"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/fa14-cs242/scwilli2">
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="5413">
+<author>scwilli2</author>
+<date>2014-09-27T18:38:52.821954Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.classpath</name>
+<size>477</size>
+<commit
+   revision="3605">
+<author>scwilli2</author>
+<date>2014-09-18T04:00:33.197361Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.project</name>
+<size>389</size>
+<commit
+   revision="3042">
+<author>scwilli2</author>
+<date>2014-09-12T22:26:43.729435Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.settings</name>
+<commit
+   revision="3042">
+<author>scwilli2</author>
+<date>2014-09-12T22:26:43.729435Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>0</size>
+<commit
+   revision="3042">
+<author>scwilli2</author>
+<date>2014-09-12T22:26:43.729435Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="4536">
+<author>scwilli2</author>
+<date>2014-09-19T22:41:33.258563Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src</name>
+<commit
+   revision="5364">
+<author>scwilli2</author>
+<date>2014-09-26T22:34:12.518083Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Bishop.java</name>
+<size>1066</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Coords.java</name>
+<size>1007</size>
+<commit
+   revision="4532">
+<author>scwilli2</author>
+<date>2014-09-19T22:30:02.359046Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Hopper.java</name>
+<size>1068</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/King.java</name>
+<size>1205</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Knight.java</name>
+<size>1016</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Pawn.java</name>
+<size>2306</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Piece.java</name>
+<size>1874</size>
+<commit
+   revision="4575">
+<author>scwilli2</author>
+<date>2014-09-20T01:56:12.236876Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Queen.java</name>
+<size>1471</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Rook.java</name>
+<size>1261</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Slider.java</name>
+<size>1017</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/chessGUI.java</name>
+<size>8738</size>
+<commit
+   revision="5364">
+<author>scwilli2</author>
+<date>2014-09-26T22:34:12.518083Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/gameLoop.java</name>
+<size>523</size>
+<commit
+   revision="5268">
+<author>scwilli2</author>
+<date>2014-09-26T17:26:13.157384Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/startChess.java</name>
+<size>11197</size>
+<commit
+   revision="5268">
+<author>scwilli2</author>
+<date>2014-09-26T17:26:13.157384Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/test</name>
+<commit
+   revision="4601">
+<author>scwilli2</author>
+<date>2014-09-21T02:24:41.520371Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/boardTest.java</name>
+<size>2561</size>
+<commit
+   revision="4574">
+<author>scwilli2</author>
+<date>2014-09-20T01:55:22.233375Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/moveAndCapture.java</name>
+<size>3711</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testBishop.java</name>
+<size>1300</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testChecksandStale.java</name>
+<size>3356</size>
+<commit
+   revision="4538">
+<author>scwilli2</author>
+<date>2014-09-19T22:52:35.909515Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testHopper.java</name>
+<size>1332</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testIsBlocked.java</name>
+<size>3180</size>
+<commit
+   revision="4601">
+<author>scwilli2</author>
+<date>2014-09-21T02:24:41.520371Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testKing.java</name>
+<size>1272</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testKnight.java</name>
+<size>1305</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testPawn.java</name>
+<size>2290</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testQueen.java</name>
+<size>1201</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testRook.java</name>
+<size>1253</size>
+<commit
+   revision="4574">
+<author>scwilli2</author>
+<date>2014-09-20T01:55:22.233375Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/testSlider.java</name>
+<size>1334</size>
+<commit
+   revision="4596">
+<author>scwilli2</author>
+<date>2014-09-21T00:22:28.400857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/testPlan.pdf</name>
+<size>437768</size>
+<commit
+   revision="4535">
+<author>scwilli2</author>
+<date>2014-09-19T22:35:15.129089Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="5411">
+<author>scwilli2</author>
+<date>2014-09-27T18:35:58.366623Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.classpath</name>
+<size>295</size>
+<commit
+   revision="5411">
+<author>scwilli2</author>
+<date>2014-09-27T18:35:58.366623Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.project</name>
+<size>372</size>
+<commit
+   revision="5411">
+<author>scwilli2</author>
+<date>2014-09-27T18:35:58.366623Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.settings</name>
+<commit
+   revision="5411">
+<author>scwilli2</author>
+<date>2014-09-27T18:35:58.366623Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.settings/org.eclipse.jdt.core.prefs</name>
+<size>587</size>
+<commit
+   revision="5411">
+<author>scwilli2</author>
+<date>2014-09-27T18:35:58.366623Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="5411">
+<author>scwilli2</author>
+<date>2014-09-27T18:35:58.366623Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2.0</name>
+<commit
+   revision="5422">
+<author>scwilli2</author>
+<date>2014-09-28T01:58:59.394938Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2.0/GUI</name>
+<commit
+   revision="5420">
+<author>scwilli2</author>
+<date>2014-09-28T01:55:04.320035Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/GUI/chessGUI.java</name>
+<size>9301</size>
+<commit
+   revision="5420">
+<author>scwilli2</author>
+<date>2014-09-28T01:55:04.320035Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/doxygen</name>
+<size>8250032</size>
+<commit
+   revision="5422">
+<author>scwilli2</author>
+<date>2014-09-28T01:58:59.394938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/manualTest.pdf</name>
+<size>218835</size>
+<commit
+   revision="5421">
+<author>scwilli2</author>
+<date>2014-09-28T01:57:25.097964Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2.0/model</name>
+<commit
+   revision="5420">
+<author>scwilli2</author>
+<date>2014-09-28T01:55:04.320035Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/model/chessModel.java</name>
+<size>2454</size>
+<commit
+   revision="5420">
+<author>scwilli2</author>
+<date>2014-09-28T01:55:04.320035Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2.0/src</name>
+<commit
+   revision="5420">
+<author>scwilli2</author>
+<date>2014-09-28T01:55:04.320035Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Bishop.java</name>
+<size>1066</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Coords.java</name>
+<size>1007</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Hopper.java</name>
+<size>1068</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/King.java</name>
+<size>1205</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Knight.java</name>
+<size>1016</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Pawn.java</name>
+<size>2306</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Piece.java</name>
+<size>1874</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Player.java</name>
+<size>361</size>
+<commit
+   revision="5420">
+<author>scwilli2</author>
+<date>2014-09-28T01:55:04.320035Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Queen.java</name>
+<size>1471</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Rook.java</name>
+<size>1261</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/Slider.java</name>
+<size>1017</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/gameLoop.java</name>
+<size>523</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/src/startChess.java</name>
+<size>11571</size>
+<commit
+   revision="5420">
+<author>scwilli2</author>
+<date>2014-09-28T01:55:04.320035Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2.0/test</name>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/.testIsBlocked.java.swm</name>
+<size>12288</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/.testIsBlocked.java.swn</name>
+<size>12288</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/.testIsBlocked.java.swp</name>
+<size>16384</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/boardTest.java</name>
+<size>2561</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/moveAndCapture.java</name>
+<size>3711</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testBishop.java</name>
+<size>1300</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testChecksandStale.java</name>
+<size>3356</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testHopper.java</name>
+<size>1332</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testIsBlocked.java</name>
+<size>3180</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testKing.java</name>
+<size>1272</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testKnight.java</name>
+<size>1305</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testPawn.java</name>
+<size>2290</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testQueen.java</name>
+<size>1201</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testRook.java</name>
+<size>1253</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2.0/test/testSlider.java</name>
+<size>1334</size>
+<commit
+   revision="5419">
+<author>scwilli2</author>
+<date>2014-09-28T00:15:19.815882Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="6158">
+<author>scwilli2</author>
+<date>2014-10-03T23:20:04.385047Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.project</name>
+<size>384</size>
+<commit
+   revision="6153">
+<author>scwilli2</author>
+<date>2014-10-03T22:42:14.101585Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.pydevproject</name>
+<size>477</size>
+<commit
+   revision="6153">
+<author>scwilli2</author>
+<date>2014-10-03T22:42:14.101585Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/FlightGraph.py</name>
+<size>11113</size>
+<commit
+   revision="6158">
+<author>scwilli2</author>
+<date>2014-10-03T23:20:04.385047Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/TestCSAIR.py</name>
+<size>1383</size>
+<commit
+   revision="6153">
+<author>scwilli2</author>
+<date>2014-10-03T22:42:14.101585Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/jsonFile.json</name>
+<size>16828</size>
+<commit
+   revision="6153">
+<author>scwilli2</author>
+<date>2014-10-03T22:42:14.101585Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.project</name>
+<size>386</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.pydevproject</name>
+<size>435</size>
+<commit
+   revision="6784">
+<author>scwilli2</author>
+<date>2014-10-10T22:45:58.977825Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src</name>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/FlightGraph.py</name>
+<size>23958</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/TestCSAIR.py</name>
+<size>3985</size>
+<commit
+   revision="6849">
+<author>scwilli2</author>
+<date>2014-10-11T23:42:28.805125Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Vertex.py</name>
+<size>2634</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/jsonFile.json</name>
+<size>16828</size>
+<commit
+   revision="6784">
+<author>scwilli2</author>
+<date>2014-10-10T22:45:58.977825Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/jsonFileChampaign.json</name>
+<size>1152</size>
+<commit
+   revision="6784">
+<author>scwilli2</author>
+<date>2014-10-10T22:45:58.977825Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/jsonTestFile.json</name>
+<size>1527</size>
+<commit
+   revision="6784">
+<author>scwilli2</author>
+<date>2014-10-10T22:45:58.977825Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/mainGraph.py</name>
+<size>5971</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/mapUI.py</name>
+<size>11964</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/testEditRoute.py</name>
+<size>5073</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/tkinterMap.py</name>
+<size>1363</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/updatedFile.txt</name>
+<size>16478</size>
+<commit
+   revision="7520">
+<author>scwilli2</author>
+<date>2014-10-17T20:24:17.475168Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2</name>
+<commit
+   revision="7559">
+<author>scwilli2</author>
+<date>2014-10-17T23:16:49.140905Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/.project</name>
+<size>386</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/.pydevproject</name>
+<size>435</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src</name>
+<commit
+   revision="7559">
+<author>scwilli2</author>
+<date>2014-10-17T23:16:49.140905Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/FlightGraph.py</name>
+<size>23958</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/TestCSAIR.py</name>
+<size>3985</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/Vertex.py</name>
+<size>2634</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/jsonFile.json</name>
+<size>16828</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/jsonFileChampaign.json</name>
+<size>1152</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/jsonTestFile.json</name>
+<size>1527</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/mainGraph.py</name>
+<size>5969</size>
+<commit
+   revision="7559">
+<author>scwilli2</author>
+<date>2014-10-17T23:16:49.140905Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/manualTestCSAir.odt</name>
+<size>551286</size>
+<commit
+   revision="7553">
+<author>scwilli2</author>
+<date>2014-10-17T22:47:58.102907Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/mapUI.py</name>
+<size>11990</size>
+<commit
+   revision="7559">
+<author>scwilli2</author>
+<date>2014-10-17T23:16:49.140905Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/testEditRoute.py</name>
+<size>5073</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/tkinterMap.py</name>
+<size>1363</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/updatedFile.txt</name>
+<size>16478</size>
+<commit
+   revision="7522">
+<author>scwilli2</author>
+<date>2014-10-17T20:27:56.531836Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0</name>
+<commit
+   revision="1910">
+<author>scwilli2</author>
+<date>2014-09-05T18:20:32.052878Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.classpath</name>
+<size>307</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.project</name>
+<size>362</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/.settings</name>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/doc</name>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src</name>
+<commit
+   revision="1910">
+<author>scwilli2</author>
+<date>2014-09-05T18:20:32.052878Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation</name>
+<commit
+   revision="1910">
+<author>scwilli2</author>
+<date>2014-09-05T18:20:32.052878Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/LANSimulation.java</name>
+<size>6073</size>
+<commit
+   revision="1910">
+<author>scwilli2</author>
+<date>2014-09-05T18:20:32.052878Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/Network.java</name>
+<size>8679</size>
+<commit
+   revision="1910">
+<author>scwilli2</author>
+<date>2014-09-05T18:20:32.052878Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation/internals</name>
+<commit
+   revision="1910">
+<author>scwilli2</author>
+<date>2014-09-05T18:20:32.052878Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/internals/Node.java</name>
+<size>7667</size>
+<commit
+   revision="1910">
+<author>scwilli2</author>
+<date>2014-09-05T18:20:32.052878Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation/tests</name>
+<commit
+   revision="1909">
+<author>scwilli2</author>
+<date>2014-09-05T18:19:06.367273Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10578</size>
+<commit
+   revision="1909">
+<author>scwilli2</author>
+<date>2014-09-05T18:19:06.367273Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1884">
+<author>scwilli2</author>
+<date>2014-09-05T17:26:03.285717Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Testing</name>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/.classpath</name>
+<size>414</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/.project</name>
+<size>389</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Testing/.settings</name>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/.settings/org.eclipse.jdt.core.prefs</name>
+<size>0</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Testing/src</name>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/Bishop.java</name>
+<size>669</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/Coords.java</name>
+<size>478</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/King.java</name>
+<size>698</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/Knight.java</name>
+<size>620</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/Pawn.java</name>
+<size>1031</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/Pieces.java</name>
+<size>1177</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/Queen.java</name>
+<size>960</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/Rook.java</name>
+<size>499</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/src/startChess.java</name>
+<size>8406</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Testing/test</name>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/test/startChessTest.java</name>
+<size>2554</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Testing/test/startMoveTo.java</name>
+<size>2336</size>
+<commit
+   revision="3035">
+<author>scwilli2</author>
+<date>2014-09-12T22:16:07.153290Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>avl</name>
+<commit
+   revision="1987">
+<author>scwilli2</author>
+<date>2014-09-05T22:07:32.742892Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>avl/.cproject</name>
+<size>12353</size>
+<commit
+   revision="1947">
+<author>scwilli2</author>
+<date>2014-09-05T19:05:17.700543Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>avl/.project</name>
+<size>2471</size>
+<commit
+   revision="1947">
+<author>scwilli2</author>
+<date>2014-09-05T19:05:17.700543Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>avl/avl.cpp</name>
+<size>3025</size>
+<commit
+   revision="1947">
+<author>scwilli2</author>
+<date>2014-09-05T19:05:17.700543Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>avl/avl.h</name>
+<size>4254</size>
+<commit
+   revision="1947">
+<author>scwilli2</author>
+<date>2014-09-05T19:05:17.700543Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>avl/quackfun.cpp</name>
+<size>3798</size>
+<commit
+   revision="1987">
+<author>scwilli2</author>
+<date>2014-09-05T22:07:32.742892Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>shopping</name>
+<commit
+   revision="1874">
+<author>scwilli2</author>
+<date>2014-09-05T16:55:33.926933Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/.list1.txt.swo</name>
+<size>4096</size>
+<commit
+   revision="1854">
+<author>scwilli2</author>
+<date>2014-09-05T16:21:22.859425Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list1.txt</name>
+<size>56</size>
+<commit
+   revision="1860">
+<author>scwilli2</author>
+<date>2014-09-05T16:28:02.492444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list2.txt</name>
+<size>78</size>
+<commit
+   revision="1868">
+<author>scwilli2</author>
+<date>2014-09-05T16:46:30.667649Z</date>
+</commit>
+</entry>
+</list>
+</lists>
