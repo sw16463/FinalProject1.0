@@ -1,6 +1,76 @@
 <?php 
     session_start();
 ?>
+<?php 
+    $mysqli = new mysqli("127.0.0.1", "root", "Goodgirl21!", "yinyangusers", 3306);
+            if ($mysqli->connect_errno) {
+                  echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+            }
+
+            $username = $_SESSION["username"];
+            $sql = "SELECT *
+                    FROM personality_quiz      
+                    WHERE username = '$username'";
+            $result = $mysqli->query($sql);
+
+            $I_E = 0;
+            $N_S = 0;
+            $T_F = 0;
+            $J_P = 0;
+            $I_E_score = '';
+            $N_S_score = '';
+            $F_T_score = '';
+            $J_P_score = '';
+
+            if ($result->num_rows > 0) {
+                 while($row = $result->fetch_assoc()) {
+                     $I_E = $row["I_E_score"];
+                     $N_S = $row["N_S_score"] . "<br>";
+                     $T_F = $row["T_F_score"] . "<br>";
+                     $J_P = $row["J_P_score"] . "<br>";
+                 }
+            }
+            
+            if( $I_E >= 15){
+                $I_E_score = "I";
+            }
+            else{
+                $I_E_score = "E";
+            }
+            
+            if( $N_S >= 15){
+                $N_S_score = "N";
+            }
+            else{
+                $N_S_score = "S";
+            }
+
+            if( $F_T >= 25){
+                $F_T_score = "F";
+            }
+            else{
+                $F_T_score = "T";
+            }
+
+            if( $J_P >= 30){
+                $J_P_score = "J";
+            }
+            else{
+                $J_P_score = "P";
+            }
+            $total = $I_E_score . $N_S_score . $F_T_score . $J_P_score;
+            $strSQL = "UPDATE personality_quiz   
+                            SET total = '$total'    
+                            WHERE username = '$username'";
+            if($mysqli->query($strSQL) === TRUE){
+                echo "<div class='alert alert-success' role='alert'><b>SUCCESS!</b>Precede to next page. </div>";
+            }
+            else{
+                echo "<div class='alert alert-danger' role='alert'><b>FAIL!</b></div>";
+            }
+            $mysqli->close();
+
+?>
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
@@ -196,7 +266,23 @@ opacity:0.9;
           <div class="col-lg-12">
             <div class="col-xs-12 col-sm-4">
               <figure>
-                <img class="img-circle img-responsive" alt="" src="http://placehold.it/300x300">
+                <?php
+                    $mysqli = new mysqli("127.0.0.1", "root", "Goodgirl21!", "yinyangusers", 3306);
+                    if ($mysqli->connect_errno) {
+                          echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+                    }
+                    $username = $_SESSION["username"];
+                    $sql = "SELECT total
+                            FROM personality_quiz      
+                            WHERE username = '$username'";
+                    $total = $mysqli->query($sql);
+                    $total = $total->fetch_assoc();
+                    $total = $total["total"];
+                    $string = "img/" . $total . ".png";
+                    echo "<img class ='img-circle img-responsive' alt='' src='$string'>";
+                    echo "<h2 style='text-align: center'>$total<h2>";
+                ?>
+                
               </figure>
               
               <div class="row">
@@ -257,62 +343,14 @@ opacity:0.9;
             }
 
             $username = $_SESSION["username"];
-            $sql = "SELECT *
+            $sql = "SELECT total
                     FROM personality_quiz      
                     WHERE username = '$username'";
-            $result = $mysqli->query($sql);
 
-            $I_E = 0;
-            $N_S = 0;
-            $T_F = 0;
-            $J_P = 0;
-            $I_E_score = '';
-            $N_S_score = '';
-            $F_T_score = '';
-            $J_P_score = '';
+            $total = $mysqli->query($sql);
+            $total = $total->fetch_assoc();
+            $total = $total["total"];
 
-            if ($result->num_rows > 0) {
-                 while($row = $result->fetch_assoc()) {
-                     $I_E = $row["I_E_score"];
-                     $N_S = $row["N_S_score"] . "<br>";
-                     $T_F = $row["T_F_score"] . "<br>";
-                     $J_P = $row["J_P_score"] . "<br>";
-                 }
-            }
-            /*$conn->close();
-            */
-            //echo $I_E;
-            //echo $N_S;
-            //echo $T_F;
-            //echo $J_P;
-            if( $I_E >= 15){
-                $I_E_score = "I";
-            }
-            else{
-                $I_E_score = "E";
-            }
-            
-            if( $N_S >= 15){
-                $N_S_score = "N";
-            }
-            else{
-                $N_S_score = "S";
-            }
-
-            if( $F_T >= 25){
-                $F_T_score = "F";
-            }
-            else{
-                $F_T_score = "T";
-            }
-
-            if( $J_P >= 30){
-                $J_P_score = "J";
-            }
-            else{
-                $J_P_score = "P";
-            }
-            $total = $I_E_score . $N_S_score . $F_T_score . $J_P_score;
             if($total == "INTP"){
                 include 'profiles/analysts/intp.txt';  
             }
@@ -361,9 +399,10 @@ opacity:0.9;
                 include 'profiles/sentinels/isfj.txt';  
             }
             elseif($total == "ISTJ"){
+                 echo $total;
                 include 'profiles/sentinels/istj.txt';  
             }
-
+           
             
         ?>
       </div>
