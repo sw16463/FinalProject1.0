@@ -5,59 +5,6 @@
 ***************************************/
 -->
 
-<?php
-// define variables and set to empty values
-//$nameErr = $emailErr = $genderErr = $websiteErr = "";
-//$name = $email = $gender = $comment = $website = "";
-$gender="";
-$sixQ = "";
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-   
-   if (empty($_POST["firstQ"])) {
-     $genderErr = "Gender is required";
-   } else {
-     $gender = test_input($_POST["firstQ"]);
-   }
-   
-   if (empty($_POST["secQ"])) {
-     $secQErr = "Gender is required";
-   } else {
-     $secQ = test_input($_POST["secQ"]);
-   }
-   
-   if (empty($_POST["thirdQ"])) {
-     $thirdQErr = "Gender is required";
-   } else {
-     $thirdQ = test_input($_POST["thirdQ"]);
-   }
-   
-   if (empty($_POST["fourthQ"])) {
-     $fourthQErr = "Gender is required";
-   } else {
-     $fourthQ = test_input($_POST["fourthQ"]);
-   }
-   
-   if (empty($_POST["fifthQ"])) {
-     $fifthQErr = "Gender is required";
-   } else {
-     $fifthQ = test_input($_POST["fifthQ"]);
-   }
-
-   if (empty($_POST["sixQ"])) {
-     $sixQErr = "Gender is required";
-   } else {
-     $sixQ = test_input($_POST["sixQ"]);
-   }
-}
-
-function test_input($data) {
-   $data = trim($data);
-   $data = stripslashes($data);
-   $data = htmlspecialchars($data);
-   return $data;
-}
-?>
-
 <?php 
     session_start();
 ?>
@@ -152,6 +99,55 @@ function test_input($data) {
                    <input type="submit" name="submit" value="Submit"> 
                 </form>
                 <?php
+                // define variables and set to empty values
+                $firstErr = $secondErr = $thirdErr = $fourthErr = $fifthErr = $sixErr = "";
+                $firstQ = $secQ = $thirdQ = $fourthQ = $fifthQ = $sixQ = "";
+                
+                
+                   if ($_GET["firstQ"]) {
+                       $first = test_input($_POST["firstQ"]);
+                     
+                   } else {
+                      $firstErr = "Gender is required";
+                   }
+   
+                   if (empty($_POST["secQ"])) {
+                     $secQErr = "Gender is required";
+                   } else {
+                     $secQ = test_input($_POST["secQ"]);
+                   }
+   
+                   if (empty($_POST["thirdQ"])) {
+                     $thirdQErr = "Gender is required";
+                   } else {
+                     $thirdQ = test_input($_POST["thirdQ"]);
+                   }
+   
+                   if (empty($_POST["fourthQ"])) {
+                     $fourthQErr = "Gender is required";
+                   } else {
+                     $fourthQ = test_input($_POST["fourthQ"]);
+                   }
+   
+                   if (empty($_POST["fifthQ"])) {
+                     $fifthQErr = "Gender is required";
+                   } else {
+                     $fifthQ = test_input($_POST["fifthQ"]);
+                   }
+
+                   if (empty($_POST["sixQ"])) {
+                     $sixQErr = "Gender is required";
+                   } else {
+                     $sixQ = test_input($_POST["sixQ"]);
+                   }
+                
+
+                function test_input($data) {
+                   $data = trim($data);
+                   $data = stripslashes($data);
+                   $data = htmlspecialchars($data);
+                   return $data;
+                }
                 echo "<h2>Your Input:</h2>";
                 echo $firstQ;
                 echo $secQ;

@@ -1,5 +1,10 @@
 
 <?php 
+    /*********************************
+      This connects all of the pages 
+      together, allowing users input
+      to be taken to different pages. 
+    ***********************************/
     session_start();
 ?>
 <!DOCTYPE html>
@@ -76,7 +81,7 @@
                   </div>
                   <button type="submit" class="btn btn-default pull-right">Submit</button>
                   <ul class='pagination'>
-                      <li><a href='index.html'>&laquo;</a></li>
+                      <li><a href='index.php'>&laquo;</a></li>
                       <li><a href='signIn.php'>0</a></li>
                       <li><a href='quiz1.php'>1</a></li>
                       <li><a href='quiz2.php'>2</a></li>
@@ -97,6 +102,11 @@
                         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
                     }
 
+                    /************************************
+                    *  This is what grabs the users input
+                    *  and saves it to the session 
+                    *
+                    *************************************/
                     $username = $_GET["username1"];
                     $_SESSION["username"] = $username;
                     $name = $_GET["name1"];
@@ -134,9 +144,7 @@
 	               }
                    $mysqli->close();
                 ?>
-                                  
-                  
-                </div>
+                  </div>
                 </form>
             </div>
         </div>

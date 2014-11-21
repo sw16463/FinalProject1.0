@@ -1,7 +1,5 @@
 <?php
-// define variables and set to empty values
-//$nameErr = $emailErr = $genderErr = $websiteErr = "";
-//$name = $email = $gender = $comment = $website = "";
+
 $gender="";
 $sixQ = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -50,7 +48,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        return $data;
     }
 ?>
-<?php 
+<?php
+    /*********************************
+        This connects all of the pages 
+        together, allowing users input
+        to be taken to different pages. 
+    *********************************/
     session_start();
 ?>
 <!DOCTYPE html>

@@ -1,76 +1,12 @@
 <?php 
+    /*********************************
+        This connects all of the pages 
+        together, allowing users input
+        to be taken to different pages. 
+    *********************************/
     session_start();
 ?>
-<?php 
-    $mysqli = new mysqli("127.0.0.1", "root", "Goodgirl21!", "yinyangusers", 3306);
-            if ($mysqli->connect_errno) {
-                  echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-            }
 
-            $username = $_SESSION["username"];
-            $sql = "SELECT *
-                    FROM personality_quiz      
-                    WHERE username = '$username'";
-            $result = $mysqli->query($sql);
-
-            $I_E = 0;
-            $N_S = 0;
-            $T_F = 0;
-            $J_P = 0;
-            $I_E_score = '';
-            $N_S_score = '';
-            $F_T_score = '';
-            $J_P_score = '';
-
-            if ($result->num_rows > 0) {
-                 while($row = $result->fetch_assoc()) {
-                     $I_E = $row["I_E_score"];
-                     $N_S = $row["N_S_score"] . "<br>";
-                     $T_F = $row["T_F_score"] . "<br>";
-                     $J_P = $row["J_P_score"] . "<br>";
-                 }
-            }
-            
-            if( $I_E >= 15){
-                $I_E_score = "I";
-            }
-            else{
-                $I_E_score = "E";
-            }
-            
-            if( $N_S >= 15){
-                $N_S_score = "N";
-            }
-            else{
-                $N_S_score = "S";
-            }
-
-            if( $F_T >= 25){
-                $F_T_score = "F";
-            }
-            else{
-                $F_T_score = "T";
-            }
-
-            if( $J_P >= 30){
-                $J_P_score = "J";
-            }
-            else{
-                $J_P_score = "P";
-            }
-            $total = $I_E_score . $N_S_score . $F_T_score . $J_P_score;
-            $strSQL = "UPDATE personality_quiz   
-                            SET total = '$total'    
-                            WHERE username = '$username'";
-            if($mysqli->query($strSQL) === TRUE){
-                echo "<div class='alert alert-success' role='alert'><b>SUCCESS!</b>Precede to next page. </div>";
-            }
-            else{
-                echo "<div class='alert alert-danger' role='alert'><b>FAIL!</b></div>";
-            }
-            $mysqli->close();
-
-?>
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
@@ -239,6 +175,9 @@ opacity:0.9;
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
+        /////////////////////////////////////////////////
+        //  This comes with the template
+        /////////////////////////////////////////////////
         window.alert = function(){};
         var defaultCSS = document.getElementById('bootstrap-css');
         function changeCSS(css){
@@ -266,6 +205,11 @@ opacity:0.9;
           <div class="col-lg-12">
             <div class="col-xs-12 col-sm-4">
               <figure>
+                <!----------------------------------
+                  -   This connects to the database
+                  -   so that it can display your 
+                  -   images of personality type
+                 ---------------------------------->
                 <?php
                     $mysqli = new mysqli("127.0.0.1", "root", "Goodgirl21!", "yinyangusers", 3306);
                     if ($mysqli->connect_errno) {
@@ -275,10 +219,13 @@ opacity:0.9;
                     $sql = "SELECT total
                             FROM personality_quiz      
                             WHERE username = '$username'";
+                    //echo $username;
                     $total = $mysqli->query($sql);
                     $total = $total->fetch_assoc();
                     $total = $total["total"];
+                    
                     $string = "img/" . $total . ".png";
+                    //echo $string;
                     echo "<img class ='img-circle img-responsive' alt='' src='$string'>";
                     echo "<h2 style='text-align: center'>$total<h2>";
                 ?>
@@ -325,11 +272,50 @@ opacity:0.9;
 
             <div class="col-xs-12 col-sm-8">
               <ul class="list-group">
-                <li class="list-group-item"><?php echo $_SESSION["name1"] ?></li>
-                <li class="list-group-item"><?php echo $_SESSION["addr"] ?></li>
-                <li class="list-group-item"><i class="fa fa-phone"></i><?php echo $_SESSION["phoneNum"] ?></li>
-                <li class="list-group-item"><i class="fa fa-envelope"></i> <?php echo $_SESSION["addr"] ?></li>
-              </ul>
+                <?php
+                   //////////////////////////////////
+                   //  This connects to the database
+                   //  so that it can display your 
+                   //  images of personality type
+                   //////////////////////////////////
+                    $mysqli = new mysqli("127.0.0.1", "root", "Goodgirl21!", "yinyangusers", 3306);
+                    if ($mysqli->connect_errno) {
+                          echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+                    }
+                    $username = $_SESSION["username"];
+                    echo $username;
+                    $sql = "SELECT *
+                             FROM usersinfo     
+                             WHERE username = '$username'";
+
+                    $addr = $name1 = $phoneNum = $gender = "";
+                    $result = $mysqli->query($sql);
+                    if ($result->num_rows > 0) {
+                        while($row = $result->fetch_assoc()) {
+                            $name1 = $row["name"];
+                            $addr = $row["address"];
+                            $phoneNum = $row["Phone_number"];
+                            $gender = $row["gender"];
+                        }
+                    }
+                    else{
+                        echo "fail";
+                    }
+
+                    //////////////////////////////////////
+                    //  This fills in the users info  
+                    //   fields
+                    /////////////////////////////////////
+                    echo "<li class='list-group-item'>";
+                    echo $name1 . "</li>";
+                    echo "<li class='list-group-item'>";
+                    echo $addr . "</li>";
+                    echo "<li class='list-group-item'><i class='fa fa-phone'></i>";
+                    echo $phoneNum . "</li>";
+                    echo "<li class='list-group-item'><i class='fa fa-envelope'></i>";
+                    echo $gender . "</li>";
+                ?>
+                </ul>
             </div>
           </div>
         </div>
@@ -337,20 +323,35 @@ opacity:0.9;
       <div class="bs-callout bs-callout-danger">
         <h4>Summary</h4>
         <?php 
+            ////////////////////////////////////////////
+            //    Personality types will display 
+            //    under the summary 
+            ////////////////////////////////////////////
             $mysqli = new mysqli("127.0.0.1", "root", "Goodgirl21!", "yinyangusers", 3306);
             if ($mysqli->connect_errno) {
                   echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
             }
-
+            $total;
             $username = $_SESSION["username"];
             $sql = "SELECT total
                     FROM personality_quiz      
                     WHERE username = '$username'";
 
-            $total = $mysqli->query($sql);
-            $total = $total->fetch_assoc();
+            if($total = $mysqli->query($sql)){
+                //echo "<h1>SUCCESS</h1>";
+            }
+            else{
+                //echo "<h1>FAIL</h1>";
+            }
+            if($total = $total->fetch_assoc()){
+                //echo "<h1>SUCCESS</h1>";
+            }
+            else{
+                 //echo "<h1>FAIL</h1>";
+            }
+            
             $total = $total["total"];
-
+            //echo $total;
             if($total == "INTP"){
                 include 'profiles/analysts/intp.txt';  
             }
@@ -412,7 +413,7 @@ opacity:0.9;
 </div>
     
 </div>
-
+<button class="button"><a href="logout.php">LOGOUT</a></button>
 </div>
 <script type="text/javascript"></script>
 </body></html>
